@@ -1,5 +1,5 @@
-# entry
-A handy entry script for docker containers which need to wait on other services to be up for docker compose.
+# waitrypoint
+This is a wait entrypoint! A handy entry script for docker containers which need to wait on other services to be up, maily for docker compose.
 
 ## How it works
 Before executing the jar, has some awaitility if preceded by "wait <number_of_apps> <app_address> <app_port> <app_name>"
